@@ -24,7 +24,6 @@ export abstract class ConfigBase implements Config {
     this.extractExtends();
   }
 
-
   protected abstract getData(...args: Array<any>): Object;
 
   extractExtends() {
