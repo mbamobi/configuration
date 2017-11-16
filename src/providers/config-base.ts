@@ -1,9 +1,9 @@
-import { OpaqueToken } from '@angular/core';
+import { InjectionToken } from '@angular/core';
 import { Config } from './config';
 
-export const ConfigToken = new OpaqueToken('CONFIGTOKEN');
-export const EnvToken = new OpaqueToken('ENVTOKEN');
-export const CustomLoaderToken = new OpaqueToken('CUSTOMLOADERTOKEN');
+export const ConfigToken = new InjectionToken('CONFIGTOKEN');
+export const EnvToken = new InjectionToken('ENVTOKEN');
+export const CustomLoaderToken = new InjectionToken('CUSTOMLOADERTOKEN');
 
 export abstract class ConfigBase implements Config {
 
@@ -23,6 +23,7 @@ export abstract class ConfigBase implements Config {
     this.data = this.getData.apply(this, args);
     this.extractExtends();
   }
+
 
   protected abstract getData(...args: Array<any>): Object;
 
