@@ -1,3 +1,18 @@
+<a name="4.0.1"></a>
+## [4.0.1](https://github.com/mbamobi/configuration/compare/v3.0.0...v4.0.1) (2017-12-04)
+
+Versão com suporte ao Angular 5.
+
+
+### Bug Fixes
+
+* empty space ([d29a9d1](https://github.com/mbamobi/configuration/commit/d29a9d1))
+* **InjectionToken:** replace OpaqueToken for InjectionToken skipLibCheck ([cc4f1d9](https://github.com/mbamobi/configuration/commit/cc4f1d9))
+* **README:** ajuste ([44ddc39](https://github.com/mbamobi/configuration/commit/44ddc39))
+* **tsconfig:** ajuste ([50312dd](https://github.com/mbamobi/configuration/commit/50312dd))
+
+
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/mbamobi/configuration/compare/v2.0.0...v3.0.0) (2017-04-07)
 
